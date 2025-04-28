@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Function artifacts
+cloud_function.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets
+*.json
+terraform.tfvars
+.env
